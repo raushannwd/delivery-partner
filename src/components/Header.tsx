@@ -46,7 +46,11 @@ export default function Header() {
             onClick={() => scrollToSection("home")} 
             className="flex items-center"
           >
-            <span className="text-2xl font-bold">Delivery Partner</span>
+            <img 
+              src="/lovable-uploads/529877e9-bb82-4370-8f64-8badc0c4d031.png" 
+              alt="Delivery Partner" 
+              className="h-12"
+            />
           </button>
           <nav className="hidden md:flex items-center space-x-8">
             <button 

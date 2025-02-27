@@ -20,7 +20,7 @@ export default function Footer() {
           <div>
             <Link to="/" className="inline-block mb-6">
               <img 
-                src="/lovable-uploads/3dee19c3-553a-4d00-9ea4-029f9540410f.png" 
+                src="/lovable-uploads/529877e9-bb82-4370-8f64-8badc0c4d031.png" 
                 alt="Delivery Partner" 
                 className="h-12"
               />

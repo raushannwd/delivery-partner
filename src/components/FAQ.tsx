@@ -16,7 +16,7 @@ export default function FAQ() {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="relative">
             <img
-              src="/lovable-uploads/33c6fba5-1b6d-4cdc-ab1c-6cc76b3362b6.png"
+              src="/lovable-uploads/6e84efa0-1212-4323-b661-3150d393a399.png"
               alt="FAQ Illustration"
               className="w-full"
             />

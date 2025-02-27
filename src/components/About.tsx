@@ -6,7 +6,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <img
-              src="/lovable-uploads/3ada0092-51ca-4619-9562-d8c81d5d00f3.png"
+              src="/lovable-uploads/83d6cfd3-f314-4759-b1eb-5252c773e861.png"
               alt="Delivery Partner"
               className="rounded-lg shadow-lg w-full"
             />
