@@ -9,16 +9,30 @@ export default function Privacy() {
             Last updated: March 15, 2024
           </p>
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">1. Information We Collect</h2>
+            <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
             <p className="text-gray-600 mb-4">
-              We collect information that you provide directly to us, including your name, email address, phone number, and any other information you choose to provide.
-            </p>
+              Welcome to Delivery Partners. This Privacy Policy outlines how we collect, use, and protect your personal information when you visit our website and use our consultancy services to obtain delivery franchises. 
+              We are committed to ensuring your privacy is protected.            </p>
           </section>
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">2. How We Use Your Information</h2>
+            <h2 className="text-2xl font-semibold mb-4">Information We Collect</h2>
             <p className="text-gray-600 mb-4">
-              We use the information we collect to provide, maintain, and improve our services, communicate with you, and comply with legal obligations.
-            </p>
+              Personal Information
+When you use our services, we may collect the following personal information: 
+            Name
+Email address: info@deliverypartnar.site
+
+Phone number: +918585864332
+
+Postal address 0, Village Dholeta, Teh Nadauti, Karauli, Rajasthan, 322215, 322215
+
+Payment information
+
+Any other information you provide to us during the consultancy process
+
+Non-Personal Information
+
+We may also collect non-personal information, such as: </p>
           </section>
           {/* Add more sections as needed */}
         </div>
