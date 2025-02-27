@@ -5,6 +5,7 @@ import About from "@/components/About";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import FAQ from "@/components/FAQ";
 import Process from "@/components/Process";
+import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
 
 export default function Index() {
@@ -17,6 +18,7 @@ export default function Index() {
         <WhyChooseUs />
         <FAQ />
         <Process />
+        <ContactUs />
       </main>
       <Footer />
     </div>
