@@ -10,6 +10,8 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Disclaimer from "./pages/Disclaimer";
 import Cookies from "./pages/Cookies";
+import Copyright from "./pages/Copyright";
+import Legal from "./pages/Legal";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -35,6 +37,8 @@ const App = () => (
           <Route path="/terms" element={<Layout><Terms /></Layout>} />
           <Route path="/disclaimer" element={<Layout><Disclaimer /></Layout>} />
           <Route path="/cookies" element={<Layout><Cookies /></Layout>} />
+          <Route path="/copyright" element={<Layout><Copyright /></Layout>} />
+          <Route path="/legal" element={<Layout><Legal /></Layout>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

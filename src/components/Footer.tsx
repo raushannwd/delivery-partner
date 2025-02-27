@@ -2,6 +2,17 @@
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+  // Function to scroll to section 
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop - 80, // Adjust for header height
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <footer className="bg-brand-dark text-white py-16">
       <div className="container mx-auto px-4">
@@ -22,29 +33,36 @@ export default function Footer() {
             <h3 className="text-2xl font-semibold mb-6">Pages</h3>
             <ul className="space-y-4">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-white transition-colors">
+                <button 
+                  onClick={() => scrollToSection("home")} 
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Home
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="/about" className="text-gray-400 hover:text-white transition-colors">
+                <button 
+                  onClick={() => scrollToSection("about")} 
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   About Us
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-400 hover:text-white transition-colors">
-                  Contact Us
-                </Link>
-              </li>
-              <li>
-                <Link to="/faqs" className="text-gray-400 hover:text-white transition-colors">
+                <button 
+                  onClick={() => scrollToSection("faqs")} 
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   FAQs
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="/why-choose-us" className="text-gray-400 hover:text-white transition-colors">
-                  Why Choose Us
-                </Link>
+                <button 
+                  onClick={() => scrollToSection("contact")} 
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Contact Us
+                </button>
               </li>
             </ul>
           </div>
