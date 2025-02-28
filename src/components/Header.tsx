@@ -50,7 +50,7 @@ export default function Header() {
             className="flex items-center"
           >
             <img 
-              src="/lovable-uploads/3dee19c3-553a-4d00-9ea4-029f9540410f.png" 
+              src="/lovable-uploads/c5904d57-a009-4bad-bf38-cb82f57e4d65.png" 
               alt="Delivery Partner" 
               className="h-12"
             />
