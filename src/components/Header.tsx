@@ -1,10 +1,12 @@
 
 import { useState, useEffect } from "react";
 import { Menu } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("home");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   // Function to scroll to section
   const scrollToSection = (sectionId: string) => {
@@ -40,6 +42,10 @@ export default function Header() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const handleLoginClick = () => {
+    navigate("/franchise-login");
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
@@ -86,10 +92,16 @@ export default function Header() {
           
           {/* Desktop Login Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors">
+            <button 
+              onClick={handleLoginClick}
+              className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+            >
               User Login
             </button>
-            <button className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors">
+            <button 
+              onClick={handleLoginClick}
+              className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+            >
               Franchise Login
             </button>
           </div>
@@ -133,10 +145,16 @@ export default function Header() {
                 Contact Us
               </button>
               <div className="flex flex-col space-y-3 pt-2">
-                <button className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors">
+                <button 
+                  onClick={handleLoginClick}
+                  className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+                >
                   User Login
                 </button>
-                <button className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors">
+                <button 
+                  onClick={handleLoginClick}
+                  className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+                >
                   Franchise Login
                 </button>
               </div>

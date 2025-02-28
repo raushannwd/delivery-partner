@@ -12,6 +12,7 @@ import Disclaimer from "./pages/Disclaimer";
 import Cookies from "./pages/Cookies";
 import Copyright from "./pages/Copyright";
 import Legal from "./pages/Legal";
+import FranchiseLogin from "./pages/FranchiseLogin";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -33,6 +34,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/franchise-login" element={<FranchiseLogin />} />
           <Route path="/privacy" element={<Layout><Privacy /></Layout>} />
           <Route path="/terms" element={<Layout><Terms /></Layout>} />
           <Route path="/disclaimer" element={<Layout><Disclaimer /></Layout>} />
