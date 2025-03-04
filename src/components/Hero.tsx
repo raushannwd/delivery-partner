@@ -1,6 +1,6 @@
-
 import { useState } from "react";
 import { toast } from "@/components/ui/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
 // List of all Indian states
 const indianStates = [
@@ -112,8 +112,21 @@ export default function Hero() {
     setIsSubmitting(true);
     
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      // Insert data into Supabase
+      const { error } = await supabase
+        .from('franchise_applications')
+        .insert({
+          full_name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          city: formData.city,
+          pincode: formData.pincode,
+          business_name: formData.businessName,
+          state: formData.state,
+          investment: formData.investment
+        });
+
+      if (error) throw error;
       
       toast({
         title: "Application Submitted Successfully",
@@ -133,6 +146,7 @@ export default function Hero() {
       });
       setAcceptTerms(false);
     } catch (error) {
+      console.error("Error submitting form:", error);
       toast({
         title: "Submission Failed",
         description: "There was an error submitting your application. Please try again.",

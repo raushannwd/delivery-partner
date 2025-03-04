@@ -9,30 +9,69 @@ export type Json =
 export type Database = {
   public: {
     Tables: {
+      contact_messages: {
+        Row: {
+          created_at: string
+          email: string
+          id: string
+          message: string
+          name: string
+          phone: string
+        }
+        Insert: {
+          created_at?: string
+          email: string
+          id?: string
+          message: string
+          name: string
+          phone: string
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          id?: string
+          message?: string
+          name?: string
+          phone?: string
+        }
+        Relationships: []
+      }
       franchise_applications: {
         Row: {
+          business_name: string | null
           city: string
           created_at: string | null
           email: string
           full_name: string
           id: string
+          investment: string | null
           phone: string
+          pincode: string | null
+          state: string | null
         }
         Insert: {
+          business_name?: string | null
           city: string
           created_at?: string | null
           email: string
           full_name: string
           id?: string
+          investment?: string | null
           phone: string
+          pincode?: string | null
+          state?: string | null
         }
         Update: {
+          business_name?: string | null
           city?: string
           created_at?: string | null
           email?: string
           full_name?: string
           id?: string
+          investment?: string | null
           phone?: string
+          pincode?: string | null
+          state?: string | null
         }
         Relationships: []
       }
