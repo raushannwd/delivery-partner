@@ -1,4 +1,3 @@
-
 export default function Legal() {
   return (
     <div className="min-h-screen bg-white pt-20">
@@ -20,9 +19,9 @@ export default function Legal() {
               Delivery Partner is a consultancy service provider registered in India with its principal place of business at:
             </p>
             <div className="text-gray-600 mb-4 pl-4">
-              <p>VILL-GARIBA, TOLA-GARIBA, PANCH-GARIBA, BLOCK-KALYANPUR</p>
-              <p>Gariba, Purbi Champaran</p>
-              <p>Bihar, 845432</p>
+              <p>201, 2nd Floor, Suman Punj, Jagdeo path, Piller no. 10, Bailey Rd</p>
+              <p>Patna</p>
+              <p>Bihar, 800014</p>
               <p>India</p>
             </div>
             <p className="text-gray-600 mb-4">
@@ -84,9 +83,9 @@ export default function Legal() {
             </p>
             <div className="text-gray-600 mb-4 pl-4">
               <p>Delivery Partner</p>
-              <p>VILL-GARIBA, TOLA-GARIBA, PANCH-GARIBA, BLOCK-KALYANPUR</p>
-              <p>Gariba, Purbi Champaran</p>
-              <p>Bihar, 845432</p>
+              <p>201, 2nd Floor, Suman Punj, Jagdeo path, Piller no. 10, Bailey Rd</p>
+              <p>Patna</p>
+              <p>Bihar, 800014</p>
               <p>India</p>
               <p>Email: Info@Deliverypartnar.Site</p>
             </div>
@@ -117,7 +116,7 @@ export default function Legal() {
             <div className="text-gray-600 mb-4">
               <p>Email: Info@Deliverypartnar.Site</p>
               <p>Phone: +918585864332</p>
-              <p>Address: VILL-GARIBA, TOLA-GARIBA, PANCH-GARIBA, BLOCK-KALYANPUR, Gariba, Purbi Champaran, Bihar, 845432</p>
+              <p>Address: 201, 2nd Floor, Suman Punj, Jagdeo path, Piller no. 10, Bailey Rd, Patna, Bihar 800014</p>
             </div>
           </section>
         </div>

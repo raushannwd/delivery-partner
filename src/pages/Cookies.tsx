@@ -1,4 +1,3 @@
-
 export default function Cookies() {
   return (
     <div className="min-h-screen bg-white pt-20">
@@ -81,7 +80,7 @@ export default function Cookies() {
             <div className="text-gray-600 mb-4">
               <p>Email: Info@Deliverypartnar.Site</p>
               <p>Phone: +918585864332</p>
-              <p>Address: VILL-GARIBA, TOLA-GARIBA, PANCH-GARIBA, BLOCK-KALYANPUR, Gariba, Purbi Champaran, Bihar, 845432</p>
+              <p>Address: 201, 2nd Floor, Suman Punj, Jagdeo path, Piller no. 10, Bailey Rd, Patna, Bihar 800014</p>
             </div>
           </section>
         </div>
