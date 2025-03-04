@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { toast } from "@/components/ui/use-toast";
 import { supabase } from "@/integrations/supabase/client";
@@ -142,7 +143,7 @@ export default function ContactUs() {
                   <div>
                     <h4 className="font-medium text-lg">Our Location</h4>
                     <p className="text-gray-600 mt-1">
-                      VILL-GARIBA, TOLA-GARIBA, PANCH-GARIBA, BLOCK-KALYANPUR, Gariba, Purbi Champaran, Bihar, 845432
+                      201, 2nd Floor, Suman Punj, Jagdeo path, Piller no. 10, Bailey Rd, Patna, Bihar 800014
                     </p>
                   </div>
                 </div>

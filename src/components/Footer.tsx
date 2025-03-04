@@ -110,7 +110,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span>
-                  VILL-GARIBA, TOLA-GARIBA, PANCH-GARIBA, BLOCK-KALYANPUR, Gariba, Purbi Champaran, Bihar, 845432
+                  201, 2nd Floor, Suman Punj, Jagdeo path, Piller no. 10, Bailey Rd, Patna, Bihar 800014
                 </span>
               </li>
               <li className="flex items-center space-x-2">
